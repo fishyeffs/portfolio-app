@@ -26,7 +26,7 @@ const ContactForm = () => {
     <div>
       <form onSubmit={handleSubmit}>
         <h1>Email Me</h1>
-        <div class="form-container">
+        <div className="form-container">
           <label>
             Email:
             <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />

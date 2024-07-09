@@ -1,15 +1,16 @@
 import React from 'react';
 import './MenuBar.css';
+import { Link } from 'react-router-dom';
 
 const MenuBar = () => {
   return (
     <div className="menu-bar">
       <a href="#" className="logo">Portfolio</a>
       <div className="menu-items">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Gallery</a>
-        <a href="#">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/gallery">Gallery</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </div>
   );

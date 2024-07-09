@@ -1,3 +1,15 @@
+# Portfolio App
+
+A demonstration of my full-stack capabilities
+
+### TODO
+
+- [x] Show image on page
+- [x] Show several images
+- [x] Show several images in custom sizes
+- [ ] Show several images in grid
+- [ ] Add overlay
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

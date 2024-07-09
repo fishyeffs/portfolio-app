@@ -1,4 +1,5 @@
 import React from 'react';
+import './Gallery.css'
 
 interface Image {
   src: string;

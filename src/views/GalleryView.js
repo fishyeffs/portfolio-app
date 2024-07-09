@@ -10,7 +10,7 @@ export default function GalleryView () {
   },
   {
     src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    height: 150
+    height: 200
   }]
   return (
     <div>

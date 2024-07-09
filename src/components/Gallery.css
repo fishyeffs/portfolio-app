@@ -1,0 +1,13 @@
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery .gallery-item {
+    padding: 1px;
+}
+
+.gallery .gallery-item .img {
+    max-height: 10px;
+}
+  
